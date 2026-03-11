@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Spider Silk Inspired Fibres & Mantis Shrimp Inspired Helicoidal Structures</title>
+  <title>Biomimetic Structures — Spider Silk & Mantis Shrimp</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet"/>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -430,6 +430,21 @@
       gap: 16px;
     }
 
+    .ref-category-label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--text2);
+      margin-bottom: 16px;
+    }
+
+    .ref-num-teal { color: var(--teal) !important; }
+    .ref-source-teal { color: var(--teal) !important; }
+
     .ref-card {
       background: var(--bg2);
       border: 1px solid var(--border2);
@@ -679,7 +694,7 @@
 
   <!-- ── NAVBAR ── -->
   <nav>
-    <div class="nav-logo">MANTIS SHRIMP // HELICOIDAL</div>
+    <div class="nav-logo">SPIDER SILK &amp; MANTIS SHRIMP // BIOMIMETICS</div>
     <ul class="nav-links">
       <li><a href="#simulation">Simulation</a></li>
       <li><a href="#presentation">Presentation</a></li>
@@ -708,27 +723,10 @@
   <section class="hero" id="home">
     <div class="hero-content">
       <div class="hero-tag">▸ BIOMIMETICS RESEARCH PROJECT</div>
-      <h1>MANTIS SHRIMP<br/><span class="accent">INSPIRED HELICOIDAL</span><br/>STRUCTURES</h1>
-      <p class="hero-sub">Spider Silk · Impact Resistance · Bouligand Architecture</p>
+      <h1>SPIDER SILK &amp;<br/><span class="accent">MANTIS SHRIMP</span><br/>INSPIRED STRUCTURES</h1>
+      <p class="hero-sub">Spider Silk Fibres · Helicoidal Composites · Bouligand Architecture</p>
       <div class="hero-divider"></div>
-      <div class="hero-stats">
-        <div class="stat">
-          <div class="stat-val">16+</div>
-          <div class="stat-label">Fibre Layers</div>
-        </div>
-        <div class="stat">
-          <div class="stat-val">70°</div>
-          <div class="stat-label">Helicoidal Pitch</div>
-        </div>
-        <div class="stat">
-          <div class="stat-val">2×</div>
-          <div class="stat-label">Impact Absorption</div>
-        </div>
-        <div class="stat">
-          <div class="stat-val">4</div>
-          <div class="stat-label">Researchers</div>
-        </div>
-      </div>
+
     </div>
     <div class="scroll-hint">
       <span>SCROLL</span>
@@ -798,59 +796,74 @@
         <span class="section-title">RESEARCH &amp; CITATIONS</span>
         <div class="section-line"></div>
       </div>
-      <div class="research-grid">
+      <!-- Spider Silk Sources: 01-05 -->
+      <div class="ref-category-label">
+        <span class="dot dot-teal"></span> Spider Silk Inspired Fibres
+      </div>
+      <div class="research-grid" style="margin-bottom: 40px;">
 
-        <a class="ref-card" href="https://www.sciencedirect.com/science/article/abs/pii/S1748013224000434" target="_blank">
-          <div class="ref-num">01</div>
+        <a class="ref-card" href="https://www.sciencedirect.com/science/article/pii/S2666386420301089" target="_blank">
+          <div class="ref-num ref-num-teal">01</div>
           <div class="ref-body">
-            <div class="ref-source">ScienceDirect</div>
-            <div class="ref-title">Helicoidal Composite Structures — Mechanics &amp; Design</div>
-            <div class="ref-url">sciencedirect.com · S1748013224000434</div>
+            <div class="ref-source ref-source-teal">ScienceDirect</div>
+            <div class="ref-title">Spider Silk-Inspired Materials — Cell Reports Physical Science</div>
+            <div class="ref-url">sciencedirect.com · S2666386420301089</div>
           </div>
         </a>
 
         <a class="ref-card" href="https://www.researchgate.net/publication/357177514_Spider_Silk-Inspired_Artificial_Fibers" target="_blank">
-          <div class="ref-num">02</div>
+          <div class="ref-num ref-num-teal">02</div>
           <div class="ref-body">
-            <div class="ref-source">ResearchGate</div>
+            <div class="ref-source ref-source-teal">ResearchGate</div>
             <div class="ref-title">Spider Silk-Inspired Artificial Fibers</div>
             <div class="ref-url">researchgate.net · pub/357177514</div>
           </div>
         </a>
 
         <a class="ref-card" href="https://www.nature.com/articles/s41467-024-48745-9" target="_blank">
-          <div class="ref-num">03</div>
+          <div class="ref-num ref-num-teal">03</div>
           <div class="ref-body">
-            <div class="ref-source">Nature Communications</div>
+            <div class="ref-source ref-source-teal">Nature Communications</div>
             <div class="ref-title">Biomimetic Fibre Engineering — Nature 2024</div>
             <div class="ref-url">nature.com · s41467-024-48745-9</div>
           </div>
         </a>
 
         <a class="ref-card" href="https://www.spintex.co.uk/" target="_blank">
-          <div class="ref-num">04</div>
+          <div class="ref-num ref-num-teal">04</div>
           <div class="ref-body">
-            <div class="ref-source">Spintex Engineering</div>
+            <div class="ref-source ref-source-teal">Spintex Engineering</div>
             <div class="ref-title">Bio-inspired Silk Spinning Technology</div>
             <div class="ref-url">spintex.co.uk</div>
           </div>
         </a>
 
         <a class="ref-card" href="https://illumin.usc.edu/biomimetics-engineering-spider-silk/" target="_blank">
-          <div class="ref-num">05</div>
+          <div class="ref-num ref-num-teal">05</div>
           <div class="ref-body">
-            <div class="ref-source">USC Illumin</div>
+            <div class="ref-source ref-source-teal">USC Illumin</div>
             <div class="ref-title">Biomimetics: Engineering Spider Silk</div>
             <div class="ref-url">illumin.usc.edu</div>
           </div>
         </a>
 
-        <a class="ref-card" href="https://www.sciencedirect.com/science/article/pii/S2666386420301089" target="_blank">
+        <!-- empty cell to balance the 2-column grid -->
+        <div></div>
+
+      </div>
+
+      <!-- Mantis Shrimp Sources: 06-09 -->
+      <div class="ref-category-label">
+        <span class="dot dot-cyan"></span> Mantis Shrimp Inspired Helicoidal Structures
+      </div>
+      <div class="research-grid">
+
+        <a class="ref-card" href="https://www.sciencedirect.com/science/article/abs/pii/S1748013224000434" target="_blank">
           <div class="ref-num">06</div>
           <div class="ref-body">
             <div class="ref-source">ScienceDirect</div>
-            <div class="ref-title">Spider Silk-Inspired Materials — Cell Reports Physical Science</div>
-            <div class="ref-url">sciencedirect.com · S2666386420301089</div>
+            <div class="ref-title">Helicoidal Composite Structures — Mechanics &amp; Design</div>
+            <div class="ref-url">sciencedirect.com · S1748013224000434</div>
           </div>
         </a>
 
@@ -872,7 +885,7 @@
           </div>
         </a>
 
-        <a class="ref-card" href="https://helicoidind.com/" target="_blank" style="grid-column: 1 / -1; max-width: 50%;">
+        <a class="ref-card" href="https://helicoidind.com/" target="_blank">
           <div class="ref-num">09</div>
           <div class="ref-body">
             <div class="ref-source">Helicoid Industries</div>
